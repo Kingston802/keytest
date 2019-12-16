@@ -46,9 +46,13 @@ button {
     margin: 4em auto;
     padding: 0.5em;
 }
-p {
+a {
+    text-decoration: none;
     color: var(--white);
     position: absolute;
     bottom: 2em;
     left: 2em;
+}
+a:hover {
+    transform: scale(1.1);
 }
