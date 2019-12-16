@@ -1,0 +1,54 @@
+* {
+    --bg-black: #474747;
+    --yellow: #F2AF29;
+    --faded-yellow: #FFDB94;
+    --white: #FCFAF9;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body {
+    background-color: var(--bg-black);
+}
+.wrapper {
+    height: 100%;
+    position: relative;
+}
+h2 {
+    font-size: 3em;
+    color: var(--yellow);
+    text-align: center;
+}
+.keyboard {
+    margin-top: 4em;
+}
+.keyboardRow { 
+    text-align: center;
+}
+.key { 
+    display: inline-block; 
+    border: 0.01em solid var(--yellow); 
+    color: var(--white);
+    background-color: var(--yellow);
+    padding: 0.5em;
+    margin-bottom: 0.2em;
+}
+.clicked {
+    border: 0.01em solid var(--faded-yellow); 
+    background-color: var(--faded-yellow);
+}
+button {
+    color: var(--yellow);
+    background-color: var(--white);
+    display: block;
+    margin: 4em auto;
+    padding: 0.5em;
+}
+p {
+    color: var(--white);
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+}
